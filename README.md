@@ -1,11 +1,13 @@
 # 🚀 Dynamic Web Application on AWS
 
 This project demonstrates a secure, scalable, and highly available architecture for deploying a dynamic web application using AWS services. The architecture supports fault tolerance, autoscaling, and follows AWS best practices for production workloads.
+
 ---
 
 ## 📊 Architecture Diagram
 
 ![Alt Text](/My_Dynamic_Web_App_on_AWS.jpg)
+
 ---
 
 ## 🏗️ Architecture Overview
@@ -26,6 +28,7 @@ The website is hosted on EC2 instances within a Virtual Private Cloud (VPC) conf
 - **Simple Notification Service (SNS)**: Sends notifications about activities within the Auto Scaling Group.
 - **Route 53**: Provides DNS services for registering and managing the website's domain name.
 - **S3 Bucket**: Stores the application code and assets.
+
 ---
 
 ## 🛠️ Deployment Overview
@@ -57,6 +60,7 @@ The deployment of this infrastructure is automated using scripts and configurati
 4. **Access the Application**
    - Confirm that the domain is properly configured in Route 53.
    - Open your web browser and navigate to your registered domain or Application Load Balancere DNS name.
+
 ---
 
 ## ✅ Key Features
@@ -65,6 +69,7 @@ The deployment of this infrastructure is automated using scripts and configurati
 - Scalable web tier with EC2 Auto Scaling
 - Secure architecture with private subnets and IAM controls
 - End-to-end HTTPS with managed TLS certificates
+
 ---
 
 ## 🔐 Security Best Practices
@@ -73,6 +78,7 @@ The deployment of this infrastructure is automated using scripts and configurati
 - Principle of least privilege for IAM
 - Restrict EC2 access via EC2 Connect Endpoint or AWS Systems Manager Session Manager
 - Encrypted RDS with backup enabled
+
 ---
 
 ## 👥 Contributing
