@@ -6,7 +6,7 @@ This project demonstrates a secure, scalable, and highly available architecture 
 
 ## 📊 Architecture Diagram
 
-![AWS Architecture Diagram](My_Dynamic_Web_App_on_AWS.jpg
+![Alt Text](My_Dynamic_Web_App_on_AWS.jpg
 
 ---
 
@@ -42,7 +42,7 @@ This project demonstrates a secure, scalable, and highly available architecture 
 ## 🛠️ Deployment Overview
 
 1. **Provision AWS Infrastructure**
-   - Use IaC tools like Terraform, AWS CDK, or CloudFormation to create:
+   -Provision the listed AWS infrastructures:
      - VPC, Subnets, Route Tables, Internet Gateway, NAT Gateways
      - Security Groups
      - EC2 Launch Template and Auto Scaling Group
@@ -54,8 +54,8 @@ This project demonstrates a secure, scalable, and highly available architecture 
    - Ensure security groups and IAM roles are correctly applied
 
 3. **Set Up DNS and SSL**
-   - Point Route 53 domain to ALB DNS
-   - Request and attach SSL cert via ACM
+   - Point the Route 53 domain to the Application Load Balancer DNS
+   - Request and attach SSL cert via Amazon certificate Manager
 
 ---
 
