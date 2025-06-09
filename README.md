@@ -6,7 +6,7 @@ This project demonstrates a secure, scalable, and highly available architecture 
 
 ## 📊 Architecture Diagram
 
-![Alt Text](My_Dynamic_Web_App_on_AWS.jpg
+![Alt Text](/My_Dynamic_Web_App_on_AWS.jpg
 
 ---
 
